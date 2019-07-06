@@ -12,4 +12,14 @@ class Categories extends DataModel {
   }
 }
 
+// class Product extends DataModel {
+//   constructor() {
+//     super();
+//     this.schema = {
+//       categoryId: { required: true },
+//       quantityInStock: { required: true },
+//     };
+//   }
+// }
 module.exports = Categories;
+// module.exports = Product;
