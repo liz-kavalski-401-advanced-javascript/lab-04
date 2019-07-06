@@ -39,7 +39,7 @@ class Model {
     Object.keys(this.schema).forEach(field => {
       if (this.schema[field].required) {
         if (entry[field]) {
-          record[field] = entry[field];
+          record[field] = entry[field].toString();
         } else {
           valid = false;
         }
