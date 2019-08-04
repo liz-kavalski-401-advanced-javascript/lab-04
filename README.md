@@ -1,10 +1,28 @@
-# lab-4
+# LAB 4 -Data Modeling
 
-[![Build Status](https://travis-ci.com/liz-kavalski-401-advanced-javascript/lab-4.svg?branch=master)](https://travis-ci.com/liz-kavalski-401-advanced-javascript/lab-4)
+### Author: Liz Kavalski
 
----------------------------------
-The point of this lab was to be more familiar with Data Modeling. There were three parts to the lab. With the starter-code finish the tests by adding update and delete. The second part was adding another model called 'product' and pass the same test. The last part of the lab was to create another model and full test suit for it.
+### Links and Resources
+* [submission PR](https://github.com/liz-kavalski-401-advanced-javascript/lab-04/pull/3)
+* Travis
+[![Build Status](https://travis-ci.com/liz-kavalski-401-advanced-javascript/lab-04.svg?branch=master)](https://travis-ci.com/liz-kavalski-401-advanced-javascript/lab-04)
 
-I feel that I got the frist part of the lab is done which was finishing the test and adding update() and delete() to the test suit. The only reason I'm hesitdent is because I don't know it I'm doing it right or going down the wrong trial. 
+### Modules
+#### `categories.js`
+Create a schema for 'categories'
+#### `memory.js`
+The database, which can create, update and delete.
 
-I still working on the sencond part which is creating the new model and passing the test. At this point I feel a bit on the stuck side because the test are not passing and according to the instuctions it should pass. So I know something is not right and possible need to revisit the first part again.
+
+### Setup
+#### run an `npm i` to download dependinces to local device.
+
+
+#### Running the app
+* Run `npm test`.
+  
+#### Tests
+* run `npm test`
+* The assertions made was adding udate and delete to the `memory.js` file and making the test for them, but I still need to edit the tests to test for update and delete
+* The assertions that need to be made are fixing the tests and add a product model to the file system.
+
